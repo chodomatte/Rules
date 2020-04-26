@@ -1,0 +1,9 @@
+#
+# google voice
+#
+# 如果请求的域与后缀匹配, 则匹配规则
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+# 如果请求的用户代理匹配, 则匹配规则
+USER-AGENT,VoiceApp*
+USER-AGENT,com.google.GVDialer*

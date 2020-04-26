@@ -1,6 +1,6 @@
 # Apple Global CDN
 #
-################App Store
+# App Store
 # iOS App Store
 DOMAIN,iosapps.itunes.apple.com
 # Mac App Store
@@ -55,7 +55,7 @@ USER-AGENT,passd*
 USER-AGENT,Wallet*
 #
 #
-################Apple Music
+# Apple Music
 # Apple Music(Streaming)
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
