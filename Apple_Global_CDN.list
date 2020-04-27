@@ -1,0 +1,80 @@
+# Apple Global CDN
+#
+# App Store
+# iOS App Store
+DOMAIN,iosapps.itunes.apple.com
+# Mac App Store
+DOMAIN,osxapps.itunes.apple.com
+# App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com
+# Mac App Store
+PROCESS-NAME,storedownloadd
+# iOS App Store
+USER-AGENT,com.apple.appstored*
+# Update
+DOMAIN,supportdownload.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,apptrailers.itunes.apple.com
+DOMAIN,updates-http.cdn-apple.com
+#
+# Apple Non-China CDN
+#
+# Trailer
+DOMAIN-SUFFIX,hls.itunes.apple.com
+# iBooks Store download
+DOMAIN,books.itunes.apple.com
+# Movie Stream
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+# iTunes Music Stream
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN,cdn.apple-cloudkit.com
+# Developer
+DOMAIN,devimages-cdn.apple.com
+DOMAIN,devstreaming-cdn.apple.com
+DOMAIN,js-cdn.music.apple.com
+DOMAIN,docs-assets.developer.apple.com
+#
+# Apple 其他直连
+#
+DOMAIN,api.smoot.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,configuration.apple.com
+DOMAIN,guzzoni.apple.com
+#
+#Apple TV
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+#
+# Apple Pay
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
+#
+#
+# Apple Music
+# Apple Music(Streaming)
+DOMAIN,aod.itunes.apple.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+#
+#
+#
+# Apple Map
+DOMAIN,gs-loc.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+# Reserve
+DOMAIN,reserve-prime.apple.com
+DOMAIN-SUFFIX,ess.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+# Asset Cache Locator Service
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+# Caching Server Registration
+DOMAIN-SUFFIX,lcdn-registration.apple.com
