@@ -1,0 +1,9 @@
+# Notion list
+USER-AGENT,Notion*
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,loggly.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,segment.com

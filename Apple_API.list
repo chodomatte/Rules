@@ -43,6 +43,7 @@ DOMAIN,itsliveradio.apple.com
 # Beats 1 电台视频
 DOMAIN,aodp-ssl.itunes.apple.com
 # iCloud 音乐资料库上传
+DOMAIN,amazonaws.com
 # Apple 其他自选
 #
 DOMAIN-SUFFIX,aaplimg.com
