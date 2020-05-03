@@ -18,24 +18,6 @@ DOMAIN,swcdn.apple.com
 DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,updates-http.cdn-apple.com
 #
-# Apple Non-China CDN
-#
-# Trailer
-DOMAIN-SUFFIX,hls.itunes.apple.com
-# iBooks Store download
-DOMAIN,books.itunes.apple.com
-# Movie Stream
-DOMAIN-SUFFIX,hls-amt.itunes.apple.com
-# iTunes Music Stream
-DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN,cdn.apple-cloudkit.com
-# Developer
-DOMAIN,devimages-cdn.apple.com
-DOMAIN,devstreaming-cdn.apple.com
-DOMAIN,js-cdn.music.apple.com
-DOMAIN,docs-assets.developer.apple.com
-#
 # Apple 其他直连
 #
 DOMAIN,api.smoot.apple.com
@@ -56,13 +38,25 @@ USER-AGENT,Wallet*
 #
 #
 # Apple Music
-# Apple Music(Streaming)
+# Apple Music 歌曲播放
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
+# Apple Music MV播放
 DOMAIN,mvod.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-# Apple Music
-DOMAIN-SUFFIX,music.apple.com
+# 电影与影片 - 预告片
+DOMAIN,video-ssl.itunes.apple.com
+# 电影与影片 - 正片
+DOMAIN,hls-ssl.itunes.apple.com
+# iCloud 音乐资料库上传(可能缓慢，那就挪到Apple_API)
+DOMAIN,amazonaws.com
+# 播放自己上传的歌(可能缓慢，那就挪到Apple_API)
+DOMAIN,blobstore.apple.com
+DOMAIN,audio.itunes.apple.com
+#
+#
+#
+#转到Apple_API列表，iTunes Store - Music 购买后播放
+#DOMAIN,streamingaudio.itunes.apple.com
 #
 #
 #

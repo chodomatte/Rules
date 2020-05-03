@@ -13,7 +13,6 @@ DOMAIN,se.itunes.apple.com
 DOMAIN,se-edge.itunes.apple.com
 DOMAIN,su.itunes.apple.com
 DOMAIN,upp.itunes.apple.com
-DOMAIN,beta.music.apple.com
 DOMAIN-KEYWORD,buy.itunes.apple.com
 #
 # Apple News and Apple Map TOMTOM Version
@@ -28,6 +27,22 @@ DOMAIN,news-edge.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,apple.comscoreresearch.com
 #
+#
+# 可能访问不畅的Apple Music的功能
+# iTunes Music 流媒体
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN,cdn.apple-cloudkit.com
+# iTunes Store - Music 试听
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+# iTunes Store - Music 购买后播放
+DOMAIN,streamingaudio.itunes.apple.com
+# Apple Music 网页版（美国）
+DOMAIN,music.apple.com/us/*
+# Beats 1 电台直播
+DOMAIN,itsliveradio.apple.com
+# Beats 1 电台视频
+DOMAIN,aodp-ssl.itunes.apple.com
+# iCloud 音乐资料库上传
 # Apple 其他自选
 #
 DOMAIN-SUFFIX,aaplimg.com
@@ -35,10 +50,23 @@ DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,cdn-apple.com
 # iCloud 上传和下载
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+# 从Apple_Global_CDN列表转移来的
+# Apple Non-China CDN
+# iBooks Store download
+DOMAIN,books.itunes.apple.com
+# Movie Stream
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+# Developer
+DOMAIN,devimages-cdn.apple.com
+DOMAIN,devstreaming-cdn.apple.com
+DOMAIN,js-cdn.music.apple.com
+DOMAIN,docs-assets.developer.apple.com
+
+
+
