@@ -60,9 +60,6 @@ DOMAIN,audio.itunes.apple.com
 #
 #
 #
-# Apple Map
-DOMAIN,gs-loc.apple.com
-DOMAIN-SUFFIX,ls.apple.com
 # Reserve
 DOMAIN,reserve-prime.apple.com
 DOMAIN-SUFFIX,ess.apple.com
